@@ -1,0 +1,4 @@
+# Neovim / lazy / cache
+**/lazy-lock.json
+**/.cache/
+**/undo/
