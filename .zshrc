@@ -147,6 +147,5 @@ alias neofetch='neofetch --ascii $HOME/.config/neofetch/dod.txt'
 alias kitty="$HOME/.local/kitty.app/bin/kitty"
 
 #Dotfile
-git init --bare $HOME/.dotfiles.git
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles.git --work-tree=$HOME'
 
