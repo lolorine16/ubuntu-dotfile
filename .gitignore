@@ -1,5 +1,18 @@
-# Neovim / lazy / cache
+# Neovim / LazyVim
 **/lazy-lock.json
 **/.cache/
 **/undo/
-**/kitty/session*
+
+# Kitty
+**/session*
+
+# Spicetify
+**/Backup/
+**/Extensions/
+
+# Fastfetch / Neofetch
+**/cache/
+
+# btop
+**/themes/cache/
+
