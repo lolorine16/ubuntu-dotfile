@@ -16,3 +16,6 @@
 # btop
 **/themes/cache/
 
+# Ignore cursor binary
+.local/bin/cursor
+
