@@ -113,12 +113,11 @@ alias zshconfig="nano ~/.zshrc"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-export PATH=$PATH:/home/reen-lo/.spicetify
 export PATH="$HOME/.spicetify:$PATH"
 export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 
 # Created by `pipx` on 2025-04-18 19:03:45
-export PATH="$PATH:/home/reen-lo/.local/bin"
+export PATH="$HOME/.local/bin:$PATH"
 export PATH="$PATH:$HOME/flutter/bin"
 export CHROME_EXECUTABLE=chromium-browser
 export ANDROID_HOME=$HOME/Android
