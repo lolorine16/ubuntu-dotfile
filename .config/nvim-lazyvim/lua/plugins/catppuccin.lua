@@ -15,12 +15,16 @@ return {
       notify = true,
       mini = true,
     },
-   custom_highlights = function(colors)
+    
+    custom_highlights = function(colors)
       return {
-        AlphaHeader  = { fg = colors.mauve, style = { "bold" } },
-        AlphaButtons = { fg = colors.blue },
-        AlphaFooter  = { fg = colors.pink },
+        SnacksDashboardHeader = { fg = colors.mauve, style = { "bold" } },
+        SnacksDashboardDesc = { fg = colors.text, style = { "bold" } },
+        SnacksDashboardKey = { fg = colors.mauve },
+        SnacksDashboardIcon = { fg = colors.mauve },
+        SnacksDashboardTitle = { fg = colors.mauve, style = { "bold" } },
+        SnacksDashboardFile = { fg = colors.text },
       }
-     end,
+    end,
   },
 }

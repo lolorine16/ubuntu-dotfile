@@ -3,5 +3,4 @@
 -- Add any additional options here
 
 -- ~/.config/nvim/lua/config/options.lua
-vim.opt.shortmess:append("I")
 
